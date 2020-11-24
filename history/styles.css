@@ -59,20 +59,26 @@
     background-color: #f7fded;
     justify-content:center;
     border-top: 15px solid  #CCF6C8;
-    margin:50px;
     padding:40px;
+    margin:0px;
 }
 
+.quien {
+  background-color: #CCF6C8;
+  margin:0px;
+}
 .cuando-donde {
     background-color: #f7fded;
     padding:15px;
     padding-bottom:25px;
+    margin:0px;
 }
 
 .como {
     background-color: #CCF6C8;
     padding:25px;
     padding-top:none;
+    margin:0px;
 }
 
 footer a {
@@ -224,8 +230,4 @@ button {
   .padding2 {
     padding: 30px;
     padding-bottom: 0px;
-  }
-
-  .no-margin {
-    margin:0px;
   }
