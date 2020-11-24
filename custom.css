@@ -1,0 +1,234 @@
+* {
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  .container {
+    background-color: #CCF6C8;
+    padding-left:0px;
+    padding-right:0px;
+    color: #6A3910;
+
+  }
+  
+    /* Navigation Menu */
+  nav {
+    background: #f7fded;
+    box-sizing:0;
+  }
+  
+    li.nav-font  {
+      display: inline-block; /* horizontal display*/
+      padding: 0.5rem;
+      cursor: pointer;
+      margin: 8px;
+      padding:8px;
+      padding-top:0px;
+      border: 2px solid #6A3910;
+    }
+    a {
+      color: #6A3910;
+      text-decoration: none;
+    }
+        li.nav-font:hover a {
+          color: #6A3910;
+
+          text-decoration: none;
+          font-weight:bold;
+          box-sizing: border-box !important;
+        }
+
+  .alejandra {
+    font-size: 2rem;
+    padding-top:0px;
+    margin-top:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right:15px;
+  }
+    .alejandra:hover {
+      text-decoration: underline;
+    }
+
+  /* Container 1 */
+
+  .qué-es {
+     /* width:100vw;
+    height: 65vh; */
+    background-color: #CCF6C8;
+  }  
+
+  .boxes-container {
+    margin-top: 2px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #C9485a;
+    background-color: #fde8ec;
+  }
+
+
+  /* Container Area 2 */
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+   
+  .container-float-right { 
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+  }  
+  .skeleton-image-container {
+    justify-self: center; 
+    width:19vw;
+    height:100%;
+    margin-top: 20px;
+  }
+ .container-float-left {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+  }
+  .what {
+    display: inline;
+    border: 2px solid #C9485a;
+    padding:10px;
+    margin:10px;
+    text-align: center;
+  }
+
+  /* Container Area 3  */
+  .personas-y-tratamiento {
+     /* width:100vw;
+    height: 78vh;*/
+    background-color: #CCF6C8;
+  }
+
+  .card-deck {
+    margin:20px;
+  }
+  .card-group, .card, .card-body {
+    border: 2px solid #C9485a;
+    background-color: #f7d8dd;
+    /* background: rgb(209, 199, 199); vIOLET */
+    border-radius: 30px;
+  }
+  .card-title {
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 20px;
+  }
+  
+  .padding1 {
+    padding: 30px;
+    padding-top:15px;
+  }
+  .padding2 {
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+
+  li.tratamiento {
+    list-style-type: square;
+  }
+
+  footer {
+    background-color: #f7fded;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+
+  /* Buttons */
+  .color {
+    background: rgb(216, 189, 189);
+    color: #000;
+  }
+  .hover:hover {
+    background: rgb(73, 73, 73);
+    color: rgb(216, 189, 189);
+  }
+
+
+   /* Images */
+  section {
+    width: 60vw;
+    height: 20vw;
+    margin: 0 auto;
+  }
+  .image-ocean {
+    width: 99%;
+    height: 100%;
+    overflow:hidden;
+  }
+  .skeleton-image {
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+  }
+
+
+  /* Fonts */
+  body {
+    color: #6A3910;
+  }
+  h1 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 50px;
+  }
+  h2 {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 40px;
+  }
+  h3, h4, h5 {
+    font-family: 'Lora', serif;
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .nav-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  p, li {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+  }
+  .small {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+  /* Background colors */
+  .para-qué-sirve, footer {
+    background: #f7fded;
+  }
+
+  /* Media Queries */
+
+ @media only screen and (max-width: 990px) {
+    .boxes-container {
+      justify-content: space-evenly;
+    }
+  } 
