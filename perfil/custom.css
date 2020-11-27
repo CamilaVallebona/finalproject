@@ -95,13 +95,13 @@
 
 
   /* Icons */
-  .icons a {
+  .icons a, .icons {
     display:inline-block;
     margin:10px;
     font-weight:bold;
 
   }
-    .icons a:hover {
+    .icons a:hover, icons:hover {
       color: #C9485a;
     }
 
