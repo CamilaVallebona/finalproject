@@ -101,7 +101,7 @@
     font-weight:bold;
 
   }
-    .icons a:hover, icons:hover {
+    .icons a:hover, .icons:hover {
       color: #C9485a;
     }
 
