@@ -55,13 +55,7 @@
 
   
 /* Content Areas */
-.progreso {
-    background-color: #f7fded;
-    justify-content:center;
-    border-top: 15px solid  #CCF6C8;
-    padding:40px;
-    margin:0px;
-}
+
 
 .quien {
   background-color: #CCF6C8;
