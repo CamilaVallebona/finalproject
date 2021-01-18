@@ -13,6 +13,10 @@
   
 
 /* Navigation Menu */
+
+  header {
+    padding: 0px !important;
+  }
   nav {
     background: #f7fded;
     box-sizing:0;
@@ -75,6 +79,9 @@
     margin:0px;
 }
 
+footer {
+  background-color: #f7fded;
+}
 footer a {
     text-decoration: none;
     color: #6A3910;
@@ -92,6 +99,8 @@ section.ocean {
     justify-self: center;
     align-self: center;
     margin: 0 auto;
+    min-width:420px;
+    min-height:180px;
 }
 .image-ocean {
     width: 99%;
@@ -105,8 +114,9 @@ div.andrew-container {
     justify-self:center;
 }
 .andrew-image {
-    width: 70%;
-    margin-top:15px;
+    max-width: 200px;
+    margin-top:40px !important;
+
 }
 
 .square {

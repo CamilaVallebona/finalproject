@@ -67,7 +67,7 @@
   .boxes {
     margin: 10px;
     padding: 20px;
-    border: 2px solid #C9485a;
+    border: 4px solid #C9485a;
     background-color: #f7fded;
   }
 
@@ -111,6 +111,8 @@
     width: 60vw;
     height: 20vw;
     margin: 0 auto;
+    min-width:420px;
+    min-height:180px;
   }
 
   section.contact-container {
@@ -127,10 +129,10 @@
 
   .profile-image {
     width: 120%;
+    margin-left:20px;
   }
 
   .square {
-    margin: 5px;
     border-radius: 5px;
     border:  2px solid #C9485a;
   }
